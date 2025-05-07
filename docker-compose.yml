@@ -1,0 +1,10 @@
+services:
+  frontendapp:
+    image: frontendapp
+    build:
+      context: frontend/frontend_app
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000:3000
