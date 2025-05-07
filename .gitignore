@@ -1,0 +1,28 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Flask session files
+instance/
+.webassets-cache/
+
+# Node / Frontend
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
